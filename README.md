@@ -8,4 +8,4 @@ I've always wanted to make my own website, finally my front end skills are comin
 ### Link to my website: https://jayant1varma.github.io/
 
 Note: The website is static, but I will add JS code to it sometime later, maybe even use tech like typescript, react.js, etc that I'm learning now in my part time job as a 
-backend dev.
+backend dev. @YU-Hacks
