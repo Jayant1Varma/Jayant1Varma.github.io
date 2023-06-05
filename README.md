@@ -9,3 +9,8 @@ I've always wanted to make my own website, finally my front end skills are comin
 
 Note: The website is static, but I will add JS code to it sometime later, maybe even use tech like typescript, react.js, etc that I'm learning now in my part time job as a 
 backend dev. @YU-Hacks
+
+
+![image](https://github.com/Jayant1Varma/Jayant1Varma.github.io/assets/87495514/9dc774c5-c1ab-483b-a821-236ed2703cbf)
+
+#### For best experience of my website, kindly grant it the permissoin to play music ^
