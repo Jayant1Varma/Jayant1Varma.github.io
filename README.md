@@ -27,7 +27,7 @@ Then, for the 'allow' sites, add in my website's url. So it eventually should lo
 The website was made fully functioning and I met all my goals for this website on June 4th 2023. The updates in the future are just going to be maintenance.
 
 
-UPDATE AT 11:34pm, June 4th: I've been granted permission by Brian Crain to use his music for using _Song for Seinna_ as my background.
+UPDATE AT 11:34pm, June 4th: I've been granted permission by Brian Crain to use his music as my background audio.
 
 ![image](https://github.com/Jayant1Varma/Jayant1Varma.github.io/assets/87495514/ed44d751-d34f-42d3-a5f2-37eb596b1855)
 
