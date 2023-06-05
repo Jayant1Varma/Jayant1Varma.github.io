@@ -12,6 +12,7 @@ backend dev. @YU-Hacks
 
 #### For best experience of my website, kindly grant my website the permission to play audio on your browser:
 For Firefox:
+
 ![image](https://github.com/Jayant1Varma/Jayant1Varma.github.io/assets/87495514/2141094f-9cf5-433f-b4d2-c67f6fff5650)
 
 For Microsoft Edge:
