@@ -24,4 +24,13 @@ Then, for the 'allow' sites, add in my website's url. So it eventually should lo
 ![image](https://github.com/Jayant1Varma/Jayant1Varma.github.io/assets/87495514/a761f60a-66f9-4192-9616-943d367260ae)
 
 
+The website was made fully functioning and I met all my goals for this website on June 4th 2023. The updates in the future are just going to be maintenance.
+
+
+UPDATE AT 11:34pm, I've been granted permission by Brian Crain to use his music for using _Song for Seinna_ as my background.
+
+![image](https://github.com/Jayant1Varma/Jayant1Varma.github.io/assets/87495514/ed44d751-d34f-42d3-a5f2-37eb596b1855)
+YAAHHOOOOOO!!!!
+
+
 
