@@ -11,6 +11,6 @@ Note: The website is static, but I will add JS code to it sometime later, maybe 
 backend dev. @YU-Hacks
 
 
-![image](https://github.com/Jayant1Varma/Jayant1Varma.github.io/assets/87495514/9dc774c5-c1ab-483b-a821-236ed2703cbf)
+![image](https://github.com/Jayant1Varma/Jayant1Varma.github.io/assets/87495514/2141094f-9cf5-433f-b4d2-c67f6fff5650)
 
 #### For best experience of my website, kindly grant it the permissoin to play music ^
