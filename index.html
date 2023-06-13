@@ -14,9 +14,10 @@
   </head>
   <body>   
 
-     <audio controls loop>
+    <button id="play" onmouseover = "hover()" onclick = "playMusic(1)">Play background music |></button>
+     <!-- <audio controls loop>
         <source src = "https://download.my-free-music.icu/s/Brian-Crain-Song-for-Sienna.mp3" type = "audio/mpeg">
-    </audio>
+    </audio> -->
     
     <!-- The above lines for audio controls loop work on phone, but not on laptop -->
     
@@ -131,7 +132,7 @@
                while also making projects using popular languages/software as my own projects.
                 Therefore, making the most out of my degree. <br> <br>
               
-              <h5>Actions speak louder than words; Big success with in-person courses: </h5> <br><br>
+              Actions speak louder than words; Big success with in-person courses: <br><br>
               
               I knew I had it in me to make a big change. This year, YorkU went completely
                in-person, and my GPA boomed with my year average being *over 90% overall* 
@@ -140,7 +141,7 @@
                eligible for the prestigious Lassonde scholarship. <br>
               
               <br>
-              <h5>Conclusion:</h5> <br>
+              Conclusion: <br>
               
               From a clueless start, I have now come to the realization that computer science 
               is thought engineering where *we make* our ideas real. Passion can be sparked in 
@@ -353,5 +354,46 @@
       // Script to load feather icons
       feather.replace()
     </script>
+
+    <script>
+
+      let play = document.getElementById("play");
+      let audio = new Audio("https://download.my-free-music.icu/s/Brian-Crain-Song-for-Sienna.mp3");
+
+      var playingNumber = 0;
+
+          function wording(){
+
+              if (play.textContent == "Play background music |>")
+                  play.textContent = "Pause music ||";
+              else 
+                  play.textContent = "Play background music |>";
+          }
+
+          function playMusic(playing) {
+
+              wording();
+
+              playingNumber += playing;
+
+              if (playingNumber % 2 == 1){                  // play the music if count is odd
+                  play.style.color = "red";    
+                  audio.play()
+              }
+              
+              else{                              // pause the music
+                  play.style.color = "blue";
+                  audio.pause();
+                  playingNumber = 0;
+              }
+
+          }
+      //   play.addEventListener("click", playMusic);
+
+        function hover(){
+          play.style.color = "green";
+        }
+    </script>
+
   </body>
 </html>
