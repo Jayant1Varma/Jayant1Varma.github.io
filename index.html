@@ -14,7 +14,6 @@
   </head>
   <body>   
 
-    <!-- <button id="play" onmouseover = "hover()" onclick = "playMusic(1)">Play background music |></button> -->
      <!-- <audio controls loop>
         <source src = "https://download.my-free-music.icu/s/Brian-Crain-Song-for-Sienna.mp3" type = "audio/mpeg">
     </audio> -->
@@ -57,17 +56,11 @@
               <i data-feather="github"></i>
           </a>
 
-          <!-- <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/jayantvarma21/" target="_blank">
-             <i data-feather="instagram"></i>
-          </a> -->
-          <!-- <a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank">
-             <i data-feather="twitter"></i>
-          </a> -->
           <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/jayant-varma-b4493b225/" target="_blank">
              <i data-feather="linkedin"></i>
           </a>
 
-          <button id="play" onmouseover = "hover()" onclick = "playMusic(1)">Play background music |><i data-feather="youtube"></i> </button>
+          <button id="play" onclick = "playMusic(1)">Background music<i data-feather="youtube"></i> </button>
 
         </div>
         <!--CV DOWNLOAD BUTTON-->
@@ -366,37 +359,21 @@
 
       var playingNumber = 0;
 
-          function wording(){
-
-              if (play.textContent == "Play background music |>")
-                  play.textContent = "Pause music ||";
-              else 
-                  play.textContent = "Play background music |>";
-          }
-
           function playMusic(playing) {
-
-              wording();
 
               playingNumber += playing;
 
               if (playingNumber % 2 == 1){                  // play the music if count is odd
-                  play.style.color = "red";    
                   audio.play()
               }
               
               else{                              // pause the music
-                  play.style.color = "blue";
                   audio.pause();
                   playingNumber = 0;
               }
 
           }
-      //   play.addEventListener("click", playMusic);
 
-        function hover(){
-          play.style.color = "green";
-        }
     </script>
 
   </body>
